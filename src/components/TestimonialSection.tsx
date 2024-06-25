@@ -18,8 +18,8 @@ SwiperCore.use([Navigation, Pagination]);
 
 const TestimonialSection = () => {
   return (
-    <section className="mt-16 min-h-screen w-full flex flex-col gap-10 items-center p-12 lg:p-16 overflow-hidden">
-          <div className="uppercase text-center flex flex-col text-[40px] leading-[40px] md:text-[60px] md:leading-[60px] lg:text-[76px] lg:leading-[76px] font-extralight lg:mb-6">words from <span className="font-bold">Our Clients</span></div>
+    <section className="mt-16 min-h-screen w-full flex flex-col gap-10 items-center p-4 md:p-16 overflow-hidden">
+          <div className="uppercase text-center flex flex-col text-[35px] leading-[35px] md:text-[60px] md:leading-[60px] lg:text-[76px] lg:leading-[76px] font-extralight lg:mb-6">words from <span className="font-bold">Our Clients</span></div>
           <Swiper
             loop={true}
             autoplay={{ delay: 3000 }}

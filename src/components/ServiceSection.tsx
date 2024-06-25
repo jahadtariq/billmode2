@@ -47,11 +47,11 @@ const ServiceSection = () => {
     
     </div>
 
-    <div className="w-full text-[30px] md:text-[50px] mt-6 mb-14 md:mb-0 md:mt-16 text-center uppercase font-bold leading-[35px] md:leading-[50px] flex items-center justify-center gap-4 flex-wrap text-[76px] leading-[76px] lg:mt-24">
+    <div className="w-full text-[30px] md:text-[50px] mt-6 mb-14 md:mb-0 md:mt-16 text-center uppercase font-bold leading-[35px] md:leading-[50px] flex items-center justify-center gap-4 flex-wrap lg:text-[76px] lg:leading-[76px] lg:mt-24">
     <span>
             <Link to={"/"} className="flex items-center justify-center gap-4">
                 <p className="border-b-[3px] border-[#1E50FF]">Services</p>
-                <img src="ARROW.svg" className="w-12 h-12"/>
+                <img src="ARROW.svg" className="w-8 h-8 md:w-12 md:h-12"/>
             </Link>
     </span>
     <span>
