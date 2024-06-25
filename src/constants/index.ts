@@ -57,3 +57,34 @@ export const servicesThree = [
     subServices: ["subService1","subService2","subService3","subService4","subService5"],
   },
 ]
+
+export const testimonialsData = [
+  {
+    name: "Leslie Alexander",
+    company: "Community",
+    message: "BILLMODE is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?",
+    rating: 5,
+    image: "/logo.svg"
+  },
+  {
+    name: "Leslie Alexander 2",
+    company: "Community",
+    message: "BILLMODE is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?",
+    rating: 5,
+    image: "/logo.svg"
+  },
+  {
+    name: "Leslie Alexander 3",
+    company: "Community",
+    message: "BILLMODE is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?",
+    rating: 4,
+    image: "/logo.svg"
+  },
+  {
+    name: "Leslie Alexander 4",
+    company: "Community",
+    message: "BILLMODE is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?",
+    rating: 2,
+    image: "/logo.svg"
+  }
+]

@@ -10,6 +10,9 @@ module.exports = {
       dropShadow: {
         'custom' : '0 26px 0 rgba(0,0,0,1)',
       },
+      boxShadow: {
+        'footer': '0px -2px 30px 10px #1e50ff',
+      },
       colors: {
         green: "#05FF00",
         lightGreen: '#00FF38',

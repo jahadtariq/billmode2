@@ -21,9 +21,24 @@
 }
 
 .main-body{
-  background: linear-gradient(180deg, #051139 0%, #051139 2.51%, #0E2F9F 75.52%, #051139 98.51%);
+  background: linear-gradient(180deg, #051139 0.51%, #0E2F9F 70.52%, #051139 88.51%);
   background-repeat: no-repeat;
   background-size: cover;
   color: rgba(255, 255, 255, 1);
   font-family: "Montserrat", sans-serif;
+}
+
+.swiper-pagination-bullet{
+  background: white;
+  width: 1rem;
+  height: 1rem;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active
+{
+  background-color: #1E50FF;
+  width: 4rem;
+  border-radius: 1rem;
+  height: 1rem;
 }
