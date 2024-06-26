@@ -1,0 +1,21 @@
+Loading page
+
+404 Not found page
+
+/booking for ARRANGING MEETING
+
+/about for about us 
+
+/services for Services
+
+/contact for contact us
+
+/web-development for web development service
+
+/seo for seo and optimization services
+
+/brand for brand design and marketing services
+
+/other for other services
+
+/design for web designing services

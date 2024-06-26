@@ -17,7 +17,7 @@ const About = () => {
           <p className="text-[16px] font-extralight leading-[20px] max-w-[670px] text-justify">At BILLMODE, we understand the nuanced art of crafting a compelling brand identity that resonates with your target audience. Our seasoned team of experts is committed to delivering bespoke solutions tailored to your unique brand vision. From strategic brand positioning to impactful visual design and consistent messaging, we are equipped to guide you through every facet of the brand-building process.</p>
           <p className="uppercase font-normal max-w-[670px] leading-[20px] text-justify">Let us be the catalyst for your brand's success, and together, we'll build a powerful and enduring brand legacy.</p>
           </div>
-          <Link to="/" className="flex gap-2 lg:gap-6 items-center mt-6">
+          <Link to="/about" className="flex gap-2 lg:gap-6 items-center mt-6">
             <p className="text-[20px] leading-[20px] lg:text-[76px] lg:leading-[72px] font-extralight border-b-[4px] border-[#1E50FF]">more about us</p>
             <img src="/ARROW.svg" className="w-[30px] lg:w-[60px]"/>
           </Link>

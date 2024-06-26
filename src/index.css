@@ -13,7 +13,12 @@
     .font-outline-white-4 {
       -webkit-text-stroke: 4px white;
     }
+
+    html {
+      scroll-behavior: smooth;
+    }
 }
+
 
 *{
     margin: 0;
