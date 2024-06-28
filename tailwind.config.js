@@ -14,8 +14,11 @@ module.exports = {
         'footer': '0px -2px 30px 10px #1e50ff',
       },
       colors: {
+        yellow: '#FAFF00',
         green: "#05FF00",
         lightGreen: '#00FF38',
+        lightBlue: '#1E50FF',
+        blue: '#051139',
       },
       backgroundImage: {
         'navbg': "url('/GLARE.svg')",
@@ -23,6 +26,7 @@ module.exports = {
         'whiteLight': "url('/bulbLight.svg')",
         'yellowLight': "url('/bulbLightYellow.svg')",
         'servicebg': "url('/serviceArrow.svg')",
+        "teambg": "url('/teambg.svg')",
       },
       dropShadow: {
         'custom': '0px 4px 25.9px 0px #000000',

@@ -88,3 +88,30 @@ export const testimonialsData = [
     image: "/logo.svg"
   }
 ]
+
+export const teamMembers = [
+  {
+    name: "Hamza Sultan",
+    designation: "Wordpress / SEO",
+    image: "/Hamza.svg",
+    link: "/hamza"
+  },
+  {
+    name: "Yameen Jilani",
+    designation: "Designer",
+    image: "/yameen.svg",
+    link: "/yameen"
+  },
+  {
+    name: "Phillipe Agbonson",
+    designation: "CEO & Strategist",
+    image: "/Phillipe.svg",
+    link: "/phillipe"
+  },
+  {
+    name: "M. Jahad Tariq",
+    designation: "Developer",
+    image: "/jahad.svg",
+    link: "/jahad"
+  },
+]
