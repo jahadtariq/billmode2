@@ -115,3 +115,22 @@ export const teamMembers = [
     link: "/jahad"
   },
 ]
+
+export const projectsInfo = [
+  {
+    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae perferendis non consectetur consequatur incidunt maiores, maxime accusamus dolor excepturi nostrum assumenda. Quidem commodi maderit, soluta maxime sequi ut omnis. Assumenda recusandae aliquam repellat similique molestias, cognam animi facilis, accusamus aliquam perspiciatis reprehenrporis sapiente minima rem obcaecati accusamus a, adipisci vero temporibus odio esse vel voluptate.",
+    link: "/",
+    image: "/project.png",
+  },
+  {
+    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae perferendis non consectetur consequatur incidunt maiores, maxime accusamus dolor excepturi nostrum assumenda. Quidem commodi maderit, soluta maxime sequi ut omnis. Assumenda recusandae aliquam repellat similique molestias, cognam animi facilis, accusamus aliquam perspiciatis reprehenrporis sapiente minima rem obcaecati accusamus a, adipisci vero temporibus odio esse vel voluptate. 2",
+    link: "/",
+    image: "/project2.png",
+  },
+  {
+    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae perferendis non consectetur consequatur incidunt maiores, maxime accusamus dolor excepturi nostrum assumenda. Quidem commodi maderit, soluta maxime sequi ut omnis. Assumenda recusandae aliquam repellat similique molestias, cognam animi facilis, accusamus aliquam perspiciatis reprehenrporis sapiente minima rem obcaecati accusamus a, adipisci vero temporibus odio esse vel voluptate. 3",
+    link: "/",
+    image: "/project.png",
+  },
+
+]

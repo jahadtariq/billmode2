@@ -54,3 +54,16 @@
   border-radius: 1rem;
   height: 1rem;
 }
+
+.project {
+  position: relative;
+  transition: transform 0.5s ease-in-out;
+}
+
+.project-hidden {
+  transform: translateX(100%);
+}
+
+.project-visible {
+  transform: translateX(0%);
+}

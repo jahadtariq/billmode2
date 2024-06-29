@@ -3,6 +3,7 @@ import ServiceSection from "../components/ServiceSection";
 import LogoSlider from "../components/LogoSlider";
 import Hero from "../components/Hero";
 import TestimonialSection from "../components/TestimonialSection";
+import ProjectsSection from "../components/ProjectsSection";
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
 
       <LogoSlider/>
 
-      <section className="min-h-screen"></section>
+      <ProjectsSection/>
 
       <ServiceSection/>
 
