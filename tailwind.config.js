@@ -11,7 +11,7 @@ module.exports = {
         'custom' : '0 26px 0 rgba(0,0,0,1)',
       },
       boxShadow: {
-        'footer': '0px -2px 30px 10px #1e50ff',
+        'footer': '0px 35px 100px 10px #1e50ff',
       },
       colors: {
         yellow: '#FAFF00',
@@ -27,6 +27,8 @@ module.exports = {
         'yellowLight': "url('/bulbLightYellow.svg')",
         'servicebg': "url('/serviceArrow.svg')",
         "teambg": "url('/teambg.svg')",
+        "workflow": "url('/workflow.svg')",
+        "decoration": "url('/Decoration.svg')",
       },
       dropShadow: {
         'custom': '0px 4px 25.9px 0px #000000',

@@ -21,6 +21,12 @@
 }
 
 
+::selection{
+  background-color: #051139;
+  color: #FAFF00;
+  font-weight: 600;
+}
+
 *{
     margin: 0;
     padding: 0;

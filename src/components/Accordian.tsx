@@ -21,7 +21,7 @@ const Accordian: React.FC<AccordionProps> = ({ name, icon, items }) => {
             transition={{
               repeat: Infinity,
               repeatType: "mirror",
-              duration: 0.5
+              duration: 1
             }}
             src={icon} 
             className="w-14 h-14 md:w-16 md:h-16 lg:w-24 lg:h-24 absolute top-0 left-0"
