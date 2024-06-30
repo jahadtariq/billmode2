@@ -29,6 +29,7 @@ module.exports = {
         "teambg": "url('/teambg.svg')",
         "workflow": "url('/workflow.svg')",
         "decoration": "url('/Decoration.svg')",
+        "stars": "url('/stars.svg')",
       },
       dropShadow: {
         'custom': '0px 4px 25.9px 0px #000000',
