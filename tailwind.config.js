@@ -30,17 +30,24 @@ module.exports = {
         "workflow": "url('/workflow.svg')",
         "decoration": "url('/Decoration.svg')",
         "stars": "url('/stars.svg')",
+        "others": "url('/otherServiceBg.png')",
+        "profile": "url('/Profile.svg')"
       },
       dropShadow: {
         'custom': '0px 4px 25.9px 0px #000000',
       },
       animation: {
         'slide-left': 'slide-left 20s linear infinite',
+        fade: 'fade 4s ease-in-out infinite',
       },
       keyframes: {
         'slide-left': {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-100%)' },
+        },
+        fade: {
+          '0%, 100%': { opacity: 0 },
+          '50%': { opacity: 1 },
         },
       },
     },

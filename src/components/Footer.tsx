@@ -23,24 +23,23 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col gap-4 lg:gap-8">
-        <h2 className="font-bold text-[16px]">Product</h2>
+        <h2 className="font-bold text-[16px]">Pages</h2>
         <div className="flex flex-col gap-2">
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">Landingpage</Link>
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">Features</Link>
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">Documentation</Link>
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">Referral Program</Link>
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">Pricing</Link>
+          <Link to="/" className="text-[14px] font-normal leading-[34px]">Home</Link>
+          <Link to="/" className="text-[14px] font-normal leading-[34px]">About us</Link>
+          <Link to="/" className="text-[14px] font-normal leading-[34px]">Services</Link>
+          <Link to="/" className="text-[14px] font-normal leading-[34px]">Contact Us</Link>
         </div>
       </div>
 
       <div className="flex flex-col gap-4 lg:gap-8">
         <h2 className="font-bold text-[16px]">Services</h2>
         <div className="flex flex-col gap-2">
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">Documentation</Link>
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">Design</Link>
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">Themes</Link>
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">Illustrations</Link>
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">UI Kit</Link>
+          <Link to="/" className="text-[14px] font-normal leading-[34px]">Web Development</Link>
+          <Link to="/" className="text-[14px] font-normal leading-[34px]">SEO & Optimization</Link>
+          <Link to="/" className="text-[14px] font-normal leading-[34px]">Web Design</Link>
+          <Link to="/" className="text-[14px] font-normal leading-[34px]">Brand Design</Link>
+          <Link to="/" className="text-[14px] font-normal leading-[34px]">Others</Link>
         </div>
       </div>
 
@@ -50,16 +49,14 @@ const Footer = () => {
           <Link to="/" className="text-[14px] font-normal leading-[34px]">About</Link>
           <Link to="/" className="text-[14px] font-normal leading-[34px]">Terms</Link>
           <Link to="/" className="text-[14px] font-normal leading-[34px]">Privacy Policy</Link>
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">Careers</Link>
         </div>
       </div>
 
       <div className="flex flex-col gap-4 lg:gap-8">
         <h2 className="font-bold text-[16px]">More</h2>
         <div className="flex flex-col gap-2">
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">Documentation</Link>
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">License</Link>
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">Changelog</Link>
+          <Link to="/" className="text-[14px] font-normal leading-[34px]">Pricing</Link>
+          <Link to="/" className="text-[14px] font-normal leading-[34px]">Book Meeting</Link>
         </div>
       </div>
 

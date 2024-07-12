@@ -97,7 +97,7 @@ const About = () => {
           </div>
         </div>
         <div className="w-full flex items-center justify-center mt-6">
-          <p className="max-w-[890px] text-[18px] leading-[20px] md:text-[24px] md:leading-[28px] lg:text-[32px] lg:leading-[42px] font-thin text-center">Cuz we don't just bring your ideas to life; we elevate them into <span className="font-semibold">standout brands</span>. Our holistic approach, from concept development to full-scale implementation, ensures your vision not only becomes a reality but also stands out in a crowded marketplace. <span className="font-semibold">Choose BILLMODE</span>, and watch your brand thrive with creativity, precision, and a passion for excellence.</p>
+          <p className="max-w-[890px] text-[18px] leading-[20px] md:text-[24px] md:leading-[28px] lg:text-[32px] lg:leading-[42px] font-regular text-center">Cuz we don't just bring your ideas to life; we elevate them into <span className="font-bold">standout brands</span>. Our holistic approach, from concept development to full-scale implementation, ensures your vision not only becomes a reality but also stands out in a crowded marketplace. <span className="font-bold">Choose BILLMODE</span>, and watch your brand thrive with creativity, precision, and a passion for excellence.</p>
         </div>
       </section>
     </>

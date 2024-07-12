@@ -22,8 +22,11 @@
 
 
 ::selection{
-  background-color: #051139;
-  color: #FAFF00;
+  /* background-color: #051139; */
+  /* background-color: black; */
+  background-color: white;
+  color: #051139;
+  /* color: #FAFF00; */
   font-weight: 600;
 }
 

@@ -17,6 +17,11 @@ import WebDevelopment from './pages/web-development';
 
 import MeetingButton from './components/MeetingButton';
 
+import Yameen from './pages/Yameen';
+import Hamza from './pages/Hamza';
+import Koko from './pages/Koko';
+import Jahad from './pages/Jahad';
+
 function App() {
 
   return (
@@ -36,6 +41,10 @@ function App() {
             <Route path="/other" element={<Other />} />
             <Route path="/design" element={<Design />} />
             <Route path="/booking" element={<Booking />} />
+            <Route path="/yameen" element={<Yameen />} />
+            <Route path="/hamza" element={<Hamza />} />
+            <Route path="/phillipe" element={<Koko />} />
+            <Route path="/jahad" element={<Jahad />} />
         </Routes>
         
         <Footer/>
