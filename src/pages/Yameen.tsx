@@ -21,7 +21,7 @@ const Yameen = () => {
             </div>
             <div className="flex flex-col items-center gap-4 border-b-[2px] border-[#020061] py-6">
               <h1 className="text-[20px] leading-[20px] font-bold text-center uppercase">bio</h1>
-              <h4 className="text-[12px] px-8 text-center font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, odio atque eos rem dicta, nemo, quis laborum sed autem delectus nulla. Voluptatem in quibusdam ratione!</h4>
+              <h4 className="text-[12px] px-8 text-center font-light">Talented Graphic Designer with 5 years of experience. I craft visually stunning designs that elevate brands and captivate audiences.</h4>
             </div>
             <div className="w-full flex flex-col items-center gap-4 border-b-[2px] border-[#020061] py-6">
               <div className="w-full px-10 flex items-center justify-between">
@@ -55,11 +55,15 @@ const Yameen = () => {
           {active === "about" && (
             <div className="flex flex-col gap-6 font-normal text-[20px] leading-[20px] max-w-[700px]">
                 <p>
-                Lorem ipsum dolor sit amet consectetur. In molestie elementum eget amet egestas eros. Velit ullamcorper auctor vitae purus diam sit maecenas. Nullam condimentum nisi nisi ornare neque velit. Vitae odio elit tortor est a nulla.
+                Crafting Visually Stunning Masterpieces: Meet Our Graphic Design Extraordinaire
                 </p>
-                <p>Tempor in nulla vestibulum libero faucibus interdum risus ipsum. Amet at eu tellus adipiscing quis euismod lectus sit aliquet. Cursus at suscipit in et. Pellentesque tempor placerat sit quam. Purus volutpat massa blandit id aliquam lectus. Viverra facilisis morbi nascetur duis quisque neque tortor urna. Magna lectus turpis ullamcorper arcu facilisis.</p>
-                <p>Lacus vel amet id lacus vestibulum. Netus auctor egestas hac scelerisque. Eu ut lorem mattis semper arcu neque imperdiet quisque. Nunc aliquet duis elit aliquet pharetra facilisis phasellus. Faucibus amet fringilla purus phasellus enim. Gravida rhoncus tristique praesent tortor sit egestas. Pellentesque vel massa sodales eget mi morbi. Velit faucibus senectus leo ut. Semper tristique tempor at pellentesque facilisis gravida. Risus purus risus nisi eu sed leo risus facilisis varius. Morbi eu sit laoreet diam tempus feugiat. Arcu vitae fames justo venenatis. Vulputate at ac ut pharetra vitae vitae morbi. Urna nunc sollicitudin nulla ut bibendum condimentum aenean viverra.
-                In leo nunc nam praesent ac leo ultrices tincidunt. Sit cras tellus augue fermentum nisl magnis elit pellentesque. Egestas risus vitae dictum risus mus vel in. Vitae sit dolor facilisi venenatis tempus. Commodo donec adipiscing eget donec. Dictum neque sit arcu tempus nullam aliquet. Arcu placerat ultrices imperdiet mi in in. Eleifend varius dolor egestas pellentesque tortor pharetra nunc. Faucibus convallis lacinia ipsum pharetra ac.</p>
+                <p>At Billmode, we believe that great design has the power to captivate, inspire, and transform. That's why we've assembled a team of the most talented graphic designers in the industry, and one such creative genius is Yameen.</p>
+                <p>With a keen eye for detail and an innate understanding of color, typography, and composition, Yameen has honed their skills over the course of their impressive career, which spans 5 years. Their passion for design is evident in every pixel they manipulate, as they effortlessly blend cutting-edge techniques with a deep understanding of brand identity and user experience.</p>
+                <p>As our resident graphic design expert, Yameen is responsible for crafting visually stunning masterpieces that elevate our clients' brands to new heights. From conceptualizing bold, memorable logos to curating cohesive brand aesthetics that permeate every touchpoint, their work is a testament to their creativity and technical prowess.</p>
+                <p>But Yameen's talents extend far beyond the realm of graphic design. They are also a skilled illustrator, with a portfolio that showcases their ability to bring even the most abstract concepts to life through the power of visual storytelling. Their work has been featured in various publications and exhibitions, earning them recognition and acclaim from their peers and industry leaders alike.</p>
+                <p>
+                At Billmode, we are proud to have Yameen as a integral part of our team. Their unwavering dedication, exceptional skills, and innovative mindset make them a driving force behind our mission to deliver visually stunning, emotionally resonant designs that captivate audiences and drive results. If you're looking to connect with this remarkable individual, you can reach them on their Behnace profile.
+                </p>
             </div>
           )}
           {active === "projects" && (

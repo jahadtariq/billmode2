@@ -12,16 +12,16 @@ const Hamza = () => {
         <div className="max-w-[650px] flex items-center justify-center col-span-1">
           <div className="bg-[#070F64]/70 rounded-2xl max-w-[380px] max-h-[770px] flex flex-col items-center justify-center pb-10 mb-6">
             <img src="/ProfileMask.svg" alt="" className=""/>
-            <div className="-mt-24">
-              <img src="/YameenProfile.svg" alt="" className=""/>
+            <div className="-mt-[70px] bg-blue rounded-full">
+              <img src="/Hamza.svg" alt="" className="w-36 h-36 rounded-full"/>
             </div>
             <div className="flex flex-col items-center gap-1 border-b-[2px] border-[#020061] py-6">
-              <h1 className="text-[20px] leading-[20px] font-bold">Muhammad Yameen Jilani</h1>
-              <h4 className="text-[16px] font-normal">Graphic Designer</h4>
+              <h1 className="text-[20px] leading-[20px] font-bold">Hamza Sultan</h1>
+              <h4 className="text-[16px] font-normal">SEO Specialist</h4>
             </div>
             <div className="flex flex-col items-center gap-4 border-b-[2px] border-[#020061] py-6">
               <h1 className="text-[20px] leading-[20px] font-bold text-center uppercase">bio</h1>
-              <h4 className="text-[12px] px-8 text-center font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, odio atque eos rem dicta, nemo, quis laborum sed autem delectus nulla. Voluptatem in quibusdam ratione!</h4>
+              <h4 className="text-[12px] px-8 text-center font-light">SEO Specialist with a proven track record of driving organic growth. With Data-driven approach and technical expertise, I help our clients dominate the search landscape.</h4>
             </div>
             <div className="w-full flex flex-col items-center gap-4 border-b-[2px] border-[#020061] py-6">
               <div className="w-full px-10 flex items-center justify-between">
@@ -55,11 +55,13 @@ const Hamza = () => {
           {active === "about" && (
             <div className="flex flex-col gap-6 font-normal text-[20px] leading-[20px] max-w-[700px]">
                 <p>
-                Lorem ipsum dolor sit amet consectetur. In molestie elementum eget amet egestas eros. Velit ullamcorper auctor vitae purus diam sit maecenas. Nullam condimentum nisi nisi ornare neque velit. Vitae odio elit tortor est a nulla.
+                Dominating the Search Landscape: Meet Our SEO Specialist, Hamza
                 </p>
-                <p>Tempor in nulla vestibulum libero faucibus interdum risus ipsum. Amet at eu tellus adipiscing quis euismod lectus sit aliquet. Cursus at suscipit in et. Pellentesque tempor placerat sit quam. Purus volutpat massa blandit id aliquam lectus. Viverra facilisis morbi nascetur duis quisque neque tortor urna. Magna lectus turpis ullamcorper arcu facilisis.</p>
-                <p>Lacus vel amet id lacus vestibulum. Netus auctor egestas hac scelerisque. Eu ut lorem mattis semper arcu neque imperdiet quisque. Nunc aliquet duis elit aliquet pharetra facilisis phasellus. Faucibus amet fringilla purus phasellus enim. Gravida rhoncus tristique praesent tortor sit egestas. Pellentesque vel massa sodales eget mi morbi. Velit faucibus senectus leo ut. Semper tristique tempor at pellentesque facilisis gravida. Risus purus risus nisi eu sed leo risus facilisis varius. Morbi eu sit laoreet diam tempus feugiat. Arcu vitae fames justo venenatis. Vulputate at ac ut pharetra vitae vitae morbi. Urna nunc sollicitudin nulla ut bibendum condimentum aenean viverra.
-                In leo nunc nam praesent ac leo ultrices tincidunt. Sit cras tellus augue fermentum nisl magnis elit pellentesque. Egestas risus vitae dictum risus mus vel in. Vitae sit dolor facilisi venenatis tempus. Commodo donec adipiscing eget donec. Dictum neque sit arcu tempus nullam aliquet. Arcu placerat ultrices imperdiet mi in in. Eleifend varius dolor egestas pellentesque tortor pharetra nunc. Faucibus convallis lacinia ipsum pharetra ac.</p>
+                <p>At Billmode, we understand that a strong online presence is the key to unlocking your brand's full potential. That's why we've assembled a team of digital marketing experts, including our resident SEO specialist, Hamza.</p>
+                <p>With a deep understanding of the ever-evolving world of search engine optimization, Hamza has honed their skills over the course of [X] years, delivering exceptional results for our clients. Their data-driven approach and technical expertise have become the driving force behind our clients' organic growth, helping them rise to the top of search engine results and captivate their target audience.</p>
+                <p>As our SEO specialist, Hamza is responsible for crafting comprehensive strategies that seamlessly integrate cutting-edge techniques with a keen eye for detail. From optimizing website content and structure to building a robust backlink profile, their work ensures that our clients' digital footprint is not only visible but also highly engaging and conversion-driven.</p>
+                <p>But Hamza's talents extend far beyond the realm of SEO. They are also a skilled content creator, with a knack for crafting compelling, SEO-optimized copy that resonates with audiences. Their ability to translate complex technical concepts into easily digestible, actionable insights has earned them the respect of both our clients and the wider digital marketing community.</p>
+                <p>At Billmode, we are proud to have Hamza as an integral part of our team. Their unwavering dedication, exceptional skills, and innovative mindset make them a driving force behind our mission to help our clients dominate the search landscape and achieve unprecedented growth. If you're looking to connect with this remarkable individual, you can reach them on their LinkedIn profile.</p>
             </div>
           )}
           {active === "projects" && (
@@ -73,14 +75,14 @@ const Hamza = () => {
           )}
           {active === "services" && (
             <div className="grid grid-cols-2 gap-4">
-                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Style Guidlines</Link>
-                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Logo Designing</Link>
-                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Social Media Designing</Link>
-                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">2D/3D Animation</Link>
-                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Web Design</Link>
-                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Flyer/Banner Design</Link>
-                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Video Editing</Link>
-                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Problem Solving</Link>
+                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Keyword Research and Analysis</Link>
+                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">On-Page Optimization</Link>
+                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl text-center">Content Creation and Optimization</Link>
+                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl text-center">Link Building and Outreach</Link>
+                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl text-center">Technical SEO Audits</Link>
+                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl text-center">Local SEO Services</Link>
+                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl text-center">SEO Strategy Development</Link>
+                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl text-center">SEO Reporting and Analytics</Link>
             </div>
           )}
         </div>

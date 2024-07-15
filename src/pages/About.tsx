@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <>
-      <section className="min-h-screen p-4 mt-10 md:mt-0 lg:px-[170px] lg:py-[40px] flex flex-col gap-[56px] items-center">
+      <section className="min-h-screen p-4 mt-10 md:-mt-16 lg:px-[170px] lg:py-[40px] flex flex-col gap-[26px] items-center">
         <motion.img 
           initial={{ y: -100 }}
           animate={{ y: 0 }}

@@ -12,25 +12,25 @@ const Jahad = () => {
         <div className="max-w-[650px] flex items-center justify-center col-span-1">
           <div className="bg-[#070F64]/70 rounded-2xl max-w-[380px] max-h-[770px] flex flex-col items-center justify-center pb-10 mb-6">
             <img src="/ProfileMask.svg" alt="" className=""/>
-            <div className="-mt-24">
-              <img src="/YameenProfile.svg" alt="" className=""/>
+            <div className="-mt-[70px] bg-blue rounded-full">
+              <img src="/jahad.svg" alt="" className="w-36 h-36 rounded-full"/>
             </div>
             <div className="flex flex-col items-center gap-1 border-b-[2px] border-[#020061] py-6">
-              <h1 className="text-[20px] leading-[20px] font-bold">Muhammad Yameen Jilani</h1>
-              <h4 className="text-[16px] font-normal">Graphic Designer</h4>
+              <h1 className="text-[20px] leading-[20px] font-bold">Muhammad Jahad Tariq</h1>
+              <h4 className="text-[16px] font-normal">Full Stack Developer</h4>
             </div>
             <div className="flex flex-col items-center gap-4 border-b-[2px] border-[#020061] py-6">
               <h1 className="text-[20px] leading-[20px] font-bold text-center uppercase">bio</h1>
-              <h4 className="text-[12px] px-8 text-center font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, odio atque eos rem dicta, nemo, quis laborum sed autem delectus nulla. Voluptatem in quibusdam ratione!</h4>
+              <h4 className="text-[12px] px-8 text-center font-light">With 4 years of technical experience, I am an analytical and skilled Node.js developer proficient in Next.js, TypeScript, service-oriented architecture, and API integration.</h4>
             </div>
             <div className="w-full flex flex-col items-center gap-4 border-b-[2px] border-[#020061] py-6">
               <div className="w-full px-10 flex items-center justify-between">
                 <h1 className="font-light text-[20px]">Services</h1>
-                <p className="font-light text-[20px]">20+</p>
+                <p className="font-light text-[20px]">10+</p>
               </div>
               <div className="w-full px-10 flex items-center justify-between">
                 <h1 className="font-light text-[20px]">Projects</h1>
-                <p className="font-light text-[20px]">100+</p>
+                <p className="font-light text-[20px]">25+</p>
               </div>
             </div>
             <div className="flex flex-col items-center gap-4 py-6">
@@ -55,11 +55,15 @@ const Jahad = () => {
           {active === "about" && (
             <div className="flex flex-col gap-6 font-normal text-[20px] leading-[20px] max-w-[700px]">
                 <p>
-                Lorem ipsum dolor sit amet consectetur. In molestie elementum eget amet egestas eros. Velit ullamcorper auctor vitae purus diam sit maecenas. Nullam condimentum nisi nisi ornare neque velit. Vitae odio elit tortor est a nulla.
+                Introducing Our Versatile Software Engineer: Unlocking Digital Transformation
                 </p>
-                <p>Tempor in nulla vestibulum libero faucibus interdum risus ipsum. Amet at eu tellus adipiscing quis euismod lectus sit aliquet. Cursus at suscipit in et. Pellentesque tempor placerat sit quam. Purus volutpat massa blandit id aliquam lectus. Viverra facilisis morbi nascetur duis quisque neque tortor urna. Magna lectus turpis ullamcorper arcu facilisis.</p>
-                <p>Lacus vel amet id lacus vestibulum. Netus auctor egestas hac scelerisque. Eu ut lorem mattis semper arcu neque imperdiet quisque. Nunc aliquet duis elit aliquet pharetra facilisis phasellus. Faucibus amet fringilla purus phasellus enim. Gravida rhoncus tristique praesent tortor sit egestas. Pellentesque vel massa sodales eget mi morbi. Velit faucibus senectus leo ut. Semper tristique tempor at pellentesque facilisis gravida. Risus purus risus nisi eu sed leo risus facilisis varius. Morbi eu sit laoreet diam tempus feugiat. Arcu vitae fames justo venenatis. Vulputate at ac ut pharetra vitae vitae morbi. Urna nunc sollicitudin nulla ut bibendum condimentum aenean viverra.
-                In leo nunc nam praesent ac leo ultrices tincidunt. Sit cras tellus augue fermentum nisl magnis elit pellentesque. Egestas risus vitae dictum risus mus vel in. Vitae sit dolor facilisi venenatis tempus. Commodo donec adipiscing eget donec. Dictum neque sit arcu tempus nullam aliquet. Arcu placerat ultrices imperdiet mi in in. Eleifend varius dolor egestas pellentesque tortor pharetra nunc. Faucibus convallis lacinia ipsum pharetra ac.</p>
+                <p>At Billmode, we take pride in our exceptional team of digital experts, and one such shining star is our talented Software Engineer, Jahad. With an impressive 4 years of technical experience under their belt, Jahad has established themselves as a true master of their craft.</p>
+                <p>As an analytical and skilled Node.js developer, Jahad is proficient in a wide range of cutting-edge technologies, including Next.js, TypeScript, service-oriented architecture, and API integration. Their key achievement, which truly showcases their exceptional abilities, is the successful architecture of a scalable application that effortlessly handles an astounding 500,000 daily requests.</p>
+                <p>In their current role as a Software Engineer, Jahad is making invaluable contributions to both the frontend and backend development of our web applications, seamlessly blending their technical expertise with a deep understanding of user-centric design. Their commitment to excellence and passion for innovation are truly inspiring.</p>
+                <p>But Jahad's talents extend far beyond their impressive technical prowess. They are also a dedicated lifelong learner, constantly exploring new frontiers in the world of technical content writing. Their insatiable curiosity and thirst for knowledge are evident in their active participation in problem-solving on platforms like GeeksforGeeks and their voracious consumption of the latest tech articles.</p>
+                <p>
+                At Billmode, we are truly fortunate to have Jahad as a integral part of our team. Their unwavering dedication, exceptional skills, and innovative mindset make them a driving force behind our mission to deliver cutting-edge digital solutions that transform our clients' businesses. If you're looking to connect with this remarkable individual, you can reach them on their LinkedIn profile.
+                </p>
             </div>
           )}
           {active === "projects" && (
@@ -73,14 +77,14 @@ const Jahad = () => {
           )}
           {active === "services" && (
             <div className="grid grid-cols-2 gap-4">
-                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Style Guidlines</Link>
-                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Logo Designing</Link>
-                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Social Media Designing</Link>
-                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">2D/3D Animation</Link>
-                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Web Design</Link>
-                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Flyer/Banner Design</Link>
-                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Video Editing</Link>
-                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Problem Solving</Link>
+                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Landing Page Development</Link>
+                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Wordpress Development</Link>
+                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Custom Web Application</Link>
+                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Ecommerce Development</Link>
+                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Application Architecture</Link>
+                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Native Mobile Application</Link>
+                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Enhanced API integration</Link>
+                <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Re-develop / Re-design website</Link>
             </div>
           )}
         </div>

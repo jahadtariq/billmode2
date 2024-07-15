@@ -43,7 +43,7 @@ const TestimonialSection = () => {
             }}
           >
             {testimonialsData.map((testimonial)=>(
-                <SwiperSlide className="bg-white/50 backdrop-blur-lg w-[510px] h-[270px] rounded-xl text-[#000] flex flex-col gap-2 px-4 py-8 hover:bg-white/20 hover:backdrop-blur-sm hover:text-white transition-colors duration-500 ease-in-out">
+                <SwiperSlide className="bg-white/50 backdrop-blur-lg w-[510px] h-contain rounded-xl text-[#000] flex flex-col gap-2 px-4 py-8 hover:bg-white/20 hover:backdrop-blur-sm hover:text-white transition-colors duration-500 ease-in-out">
                     <img src={testimonial.image} className="bg-[#1E50FF] p-2 w-12 h-12 flex items-center justify-center rounded-full"/>
                     <h1 className="text-[16px] font-medium">{testimonial.name}</h1>
                     <h1 className="text-[14px] font-regular">{testimonial.company}</h1>

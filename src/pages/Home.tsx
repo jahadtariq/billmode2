@@ -15,10 +15,10 @@ const Home = () => {
 
       <LogoSlider/>
 
-      <ProjectsSection/>
+      {/* <ProjectsSection/> */}
 
       <ServiceSection/>
-
+    
       <TestimonialSection/>
       
     </>

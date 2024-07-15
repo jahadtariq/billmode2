@@ -43,7 +43,7 @@ const ServiceElement = ({type,icon,heading,iconFilled,paragraph}: {type: string,
         </div>
         
         <div className="flex flex-col gap-10 items-start justify-center max-w-[700px]">
-            <p className="text-[36px] leading-[36px]">{paragraph}</p>
+            <p className="text-[28px] leading-[35px] text-justify">{paragraph}</p>
             <Link to={"/"}>
                 <img src="/ButtonEmpty.svg" alt="Button-alt-Billmode" className="max-w-[350px] max-h-[110px]"/>
             </Link>
