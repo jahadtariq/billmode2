@@ -39,7 +39,7 @@ const Contact = () => {
                 <div className="flex flex-col gap-4">
                   <h1 className="text-[16px] font-semibold">Send Us a Mail</h1>
                   <p className="text-[16px] font-regular max-w-[277px] text-white/60">Feel Free to Reach Out to Us on Below Email ID</p>
-                  <div className="flex items-center justify-center bg-gradient-to-r from-lightBlue/20 to-blue p-4 rounded-lg border-[1px] border-lightBlue/20">inquiry@billmode.net</div>
+                  <Link to={"mailto:inquiry@billmode.net?subject=Inquiry%20from%20website"} className="flex items-center justify-center bg-gradient-to-r from-lightBlue/20 to-blue p-4 rounded-lg border-[1px] border-lightBlue/20">inquiry@billmode.net</Link>
                 </div>
               </div>
               
@@ -61,7 +61,7 @@ const Contact = () => {
                 <div className="flex flex-col gap-4">
                   <h1 className="text-[16px] font-semibold">Location</h1>
                   <p className="text-[16px] font-regular max-w-[277px] text-white/60">71-75 Shelton Street, Covent Garden, London, United Kingdom, WC2H 9JQ</p>
-                  <Link to={"/"} className="flex gap-2 items-center justify-center bg-gradient-to-r from-lightBlue/20 to-blue p-4 rounded-lg border-[1px] border-lightBlue/20">
+                  <Link to={"https://maps.app.goo.gl/crPrECA3GuaQ1gxp7"} className="flex gap-2 items-center justify-center bg-gradient-to-r from-lightBlue/20 to-blue p-4 rounded-lg border-[1px] border-lightBlue/20">
                     <p>Get Direction</p>
                     <FaArrowRight />
                   </Link>
