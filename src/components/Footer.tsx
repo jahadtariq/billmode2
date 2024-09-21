@@ -26,27 +26,26 @@ const Footer = () => {
         <h2 className="font-bold text-[16px]">Pages</h2>
         <div className="flex flex-col gap-2">
           <Link to="/" className="text-[14px] font-normal leading-[34px]">Home</Link>
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">About us</Link>
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">Services</Link>
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">Contact Us</Link>
+          <Link to="/about" className="text-[14px] font-normal leading-[34px]">About us</Link>
+          <Link to="/services" className="text-[14px] font-normal leading-[34px]">Services</Link>
+          <Link to="/contact" className="text-[14px] font-normal leading-[34px]">Contact Us</Link>
         </div>
       </div>
 
       <div className="flex flex-col gap-4 lg:gap-8">
         <h2 className="font-bold text-[16px]">Services</h2>
         <div className="flex flex-col gap-2">
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">Web Development</Link>
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">SEO & Optimization</Link>
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">Web Design</Link>
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">Brand Design</Link>
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">Others</Link>
+          <Link to="/services#webdev" className="text-[14px] font-normal leading-[34px]" >Web Development</Link>
+          <Link to="/services#seo" className="text-[14px] font-normal leading-[34px]">SEO & Optimization</Link>
+          <Link to="/services#webdesign" className="text-[14px] font-normal leading-[34px]">Web Design</Link>
+          <Link to="/services#branddesign" className="text-[14px] font-normal leading-[34px]">Brand Design</Link>
+          <Link to="/services#others" className="text-[14px] font-normal leading-[34px]">Others</Link>
         </div>
       </div>
 
       <div className="flex flex-col gap-4 lg:gap-8">
         <h2 className="font-bold text-[16px]">Company</h2>
         <div className="flex flex-col gap-2">
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">About</Link>
           <Link to="/" className="text-[14px] font-normal leading-[34px]">Terms</Link>
           <Link to="/" className="text-[14px] font-normal leading-[34px]">Privacy Policy</Link>
         </div>
@@ -55,8 +54,8 @@ const Footer = () => {
       <div className="flex flex-col gap-4 lg:gap-8">
         <h2 className="font-bold text-[16px]">More</h2>
         <div className="flex flex-col gap-2">
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">Pricing</Link>
-          <Link to="/" className="text-[14px] font-normal leading-[34px]">Book Meeting</Link>
+          <Link to="/pricing" className="text-[14px] font-normal leading-[34px]">Pricing</Link>
+          <Link to="/contact" className="text-[14px] font-normal leading-[34px]">Book Meeting</Link>
         </div>
       </div>
 

@@ -3,7 +3,21 @@ import { motion } from "framer-motion";
 import ServiceElement from "../components/service";
 import { Link } from "react-router-dom";
 
+import { useEffect } from "react";
+import { useLocation } from 'react-router-dom';
+
 const Services = () => {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const element = document.getElementById(hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [hash]);
+  
   return (
     <>
       <section className="md:py-10 min-h-screen w-full flex flex-col justify-center items-center gap-14 -mb-40 md:mb-0">
@@ -38,6 +52,7 @@ const Services = () => {
         icon="/webService.svg"
         iconFilled="/webService.svg"
         heading="web dev"
+        identityService="webdev"
         paragraph="Billmode's web development services are a game-changer for businesses looking to elevate their online presence. With a team of seasoned experts, they craft bespoke solutions that seamlessly integrate cutting-edge technologies with your brand's unique vision. From custom website design to e-commerce development, and mobile app integration, Billmode ensures your website is not only visually stunning but also highly functional and user-friendly. Whether you're looking to boost your online visibility, drive conversions, or simply create a lasting digital impression, Billmode's web development services deliver results that speak for themselves."
       />
 
@@ -46,6 +61,7 @@ const Services = () => {
         icon="/brandIcon.svg"
         iconFilled="/webService.svg"
         heading="BRAND DESIGN"
+        identityService="branddesign"
         paragraph="At Billmode, we're more than just a marketing agency - we're brand alchemists, transforming the ordinary into the extraordinary. Our seasoned design team harnesses the power of strategic branding to craft visually stunning, emotionally resonant identities that captivate your audience and leave a lasting impression. From conceptualizing a bold, memorable logo to curating a cohesive brand aesthetic that permeates every touchpoint, we're dedicated to unlocking your brand's true potential."
       />
 
@@ -54,6 +70,7 @@ const Services = () => {
         icon="/seoIcon.svg"
         iconFilled="/webService.svg"
         heading="seo"
+        identityService="seo"
         paragraph="We're your strategic partners in conquering the digital frontier. Our comprehensive SEO services are meticulously crafted to propel your business to the forefront of search engine results, leaving your competitors in the dust. Leveraging cutting-edge techniques and a data-driven approach, we'll optimize your website's technical infrastructure, craft captivating content, and build a robust backlink profile - all while keeping a laser-sharp focus on driving tangible results."
       />
 
@@ -62,10 +79,11 @@ const Services = () => {
         icon="/designIcon.svg"
         iconFilled="/webService.svg"
         heading="web design"
+        identityService="webdesign"
         paragraph="At Billmode, we craft bespoke web designs that seamlessly integrate your brand's unique vision with cutting-edge technologies. Our team of seasoned experts creates visually stunning, highly functional websites that drive conversions and leave a lasting digital impression. Billmode's web design services will elevate your brand's allure and solidify its position in the hearts and minds of your customers."
       />
 
-      <section className="min-h-screen bg-others bg-center bg-no-repeat w-full mt-10 mb-10 py-10 flex flex-col gap-10">
+      <section className="min-h-screen bg-others bg-center bg-no-repeat w-full mt-10 mb-10 py-10 flex flex-col gap-10" id="others">
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 w-full">
           <img src="/otherIcon.svg" alt="other-icon-alt-billmode-marketing" className="w-[140px] h-[140px] md:w-[200px] md:h-[200px] lg:w-[280px] lg:h-[330px]"/>
           <h1 className="text-[70px] leading-[40px] md:text-[100px] md:leading-[100px] lg:text-[176px] font-bold uppercase lg:leading-[116px]">Others</h1>

@@ -3,12 +3,12 @@ import { useState } from "react";
 import {motion,AnimatePresence} from "framer-motion";
 import { Link } from "react-router-dom";
 
-const ServiceElement = ({type,icon,heading,iconFilled,paragraph}: {type: string, icon:string, heading:string, iconFilled:string, paragraph:string}) => {
+const ServiceElement = ({type,icon,heading,iconFilled,paragraph,identityService}: {type: string, icon:string, heading:string, iconFilled:string, paragraph:string, identityService: string}) => {
 
   const [IsFillImage, setIsFillImage] = useState(false);
 
   return (
-    <section className={`min-h-screen px-4 md:py-10 md:px-20 flex ${ type === "reverse" ? "lg:flex-row-reverse" : "lg:flex-row"} flex-col items-center justify-around mb-10 md:mb-20`}>
+    <section className={`min-h-screen px-4 md:py-10 md:px-20 flex ${ type === "reverse" ? "lg:flex-row-reverse" : "lg:flex-row"} flex-col items-center justify-around mb-10 md:mb-20`} id={`${identityService}`}>
 
 {/* onMouseEnter={()=>setIsFillImage(true)} onMouseLeave={()=>setIsFillImage(false)} */}
         

@@ -22,35 +22,39 @@ import Hamza from './pages/Hamza';
 import Koko from './pages/Koko';
 import Jahad from './pages/Jahad';
 
-function App() {
+import NotFound from './pages/NotFound';
 
+function App() {
   return (
     <>
       <Router>
-      <MeetingButton/>
-        <Navbar/>
+        <MeetingButton />
+        <Navbar />
 
         <Routes>
-            <Route index element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/web-development" element={<WebDevelopment />} />
-            <Route path="/seo" element={<Seo />} />
-            <Route path="/brand" element={<Brand />} />
-            <Route path="/other" element={<Other />} />
-            <Route path="/design" element={<Design />} />
-            <Route path="/booking" element={<Booking />} />
-            <Route path="/yameen" element={<Yameen />} />
-            <Route path="/hamza" element={<Hamza />} />
-            <Route path="/phillipe" element={<Koko />} />
-            <Route path="/jahad" element={<Jahad />} />
+          <Route index element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/web-development" element={<WebDevelopment />} />
+          <Route path="/seo" element={<Seo />} />
+          <Route path="/brand" element={<Brand />} />
+          <Route path="/other" element={<Other />} />
+          <Route path="/design" element={<Design />} />
+          <Route path="/booking" element={<Booking />} />
+          <Route path="/yameen" element={<Yameen />} />
+          <Route path="/hamza" element={<Hamza />} />
+          <Route path="/phillipe" element={<Koko />} />
+          <Route path="/jahad" element={<Jahad />} />
+
+          {/* Catch-all route for 404 Not Found */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
-        
-        <Footer/>
+
+        <Footer />
       </Router>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
