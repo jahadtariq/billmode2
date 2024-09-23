@@ -6,7 +6,7 @@ const ProjectCard = ({ type , image , heading , description , tags }: {type: str
 
   return (
     <Link to={'/'}>
-        <div className="w-[400px] h-[400px] flex flex-col bg-[#0D1849] rounded-xl p-4 shadow-md shadow-black hover:shadow-[#2d334c]">
+        <div className="w-[330px] h-[350px] md:w-[400px] md:h-[400px] flex flex-col bg-[#0D1849] rounded-xl p-4 shadow-md shadow-black hover:shadow-[#2d334c]">
             <div className="w-full h-[60%] bg-white/30 rounded-lg"></div>
             <p className="text-[10px] uppercase mt-4 text-white/70">{type}</p>
             <p className="text-[24px] font-bold uppercase">{heading}</p>

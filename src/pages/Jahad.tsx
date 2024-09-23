@@ -10,12 +10,12 @@ const Jahad = () => {
     <>
       <div className="w-full h-[150px] md:h-[230px] bg-profile bg-no-repeat bg-cover"></div>
 
-      <section className="w-full grid grid-cols-1 md:grid-cols-3 gap-10 md:px-14 pb-20">
-        <div className="max-w-full md:max-w-[650px] flex col-span-1 -mt-14 md:mt-0 px-6 md:px-0">
+      <section className="min-w-full md:grid md:grid-cols-3 gap-10 md:px-14 pb-20">
+        <div className="max-w-full md:max-w-[650px] flex md:col-span-1 -mt-14 md:mt-0 px-6 md:px-0">
           <div className="bg-[#020061] md:bg-[#070F64]/70 rounded-2xl md:max-w-[380px] max-h-[770px] flex flex-col items-center justify-center pb-10 mb-6 "> 
-            <img src="/ProfileMask.svg" alt="" className=""/>
+            <img src="/ProfileMask.svg" alt="" className="w-full"/>
             <div className="-mt-[70px] md:-mt-[44px] lg:-mt-[70px] bg-blue rounded-full">
-              <img src="/jahad.svg" alt="" className="w-[115px] h-[115px] md:w-20 md:h-20 lg:w-36 lg:h-36 rounded-full"/>
+              <img src="/jahad.svg" alt="" className="w-[135px] h-[135px] md:w-20 md:h-20 lg:w-36 lg:h-36 rounded-full"/>
             </div>
             <div className="flex flex-col items-center gap-1 border-b-[2px] border-[#020061] py-6">
               <h1 className="text-[20px] leading-[20px] font-bold">Muhammad Jahad Tariq</h1>

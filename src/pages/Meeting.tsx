@@ -2,12 +2,12 @@ import React from 'react'
 
 const Meeting = () => {
   return (
-    <section className='h-screen px-24 py-12 flex flex-col justify-center items-start gap-6'>
-        <div className='w-full h-contain flex flex-col justify-start items-start mb-12'>
-            <h1 className='font-bold text-[56px] uppercase'>Book your Appointment now</h1>
-            <h3 className='font-normal text-[20px]'>So our team can reach to you on time</h3>
+    <section className='h-contain px-10 py-10 md:px-16 lg:px-24 lg:py-12 flex flex-col justify-center items-start gap-6'>
+        <div className='w-full h-contain flex flex-col justify-start items-start mb-6 md:mb-12'>
+            <h1 className='font-bold text-[24px] md:text-[56px] uppercase'>Book your Appointment now</h1>
+            <h3 className='font-normal text-[16px] md:text-[20px]'>So our team can reach to you on time</h3>
         </div>
-        <div className='grid grid-cols-2 gap-20 w-full items-start justify-start'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-20 w-full items-start justify-start'>
             <div className='flex flex-col gap-6'>
                 <div className="flex flex-col gap-2 w-full">
                 <p className="text-[16px] font-normal">First Name</p>
