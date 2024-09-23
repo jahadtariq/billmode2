@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -24,11 +24,22 @@ import Jahad from './pages/Jahad';
 
 import NotFound from './pages/NotFound';
 
+import Meeting from './pages/Meeting';
+import PricingComparison from './pages/Pricing';
+
+// Custom hook to conditionally render MeetingButton
+const RenderMeetingButton = () => {
+  const location = useLocation(); // Get current path
+
+  // Only render the MeetingButton if the path is not '/meeting'
+  return location.pathname !== '/meeting' ? <MeetingButton /> : null;
+}
+
 function App() {
   return (
     <>
       <Router>
-        <MeetingButton />
+        <RenderMeetingButton /> {/* Conditionally renders the MeetingButton */}
         <Navbar />
 
         <Routes>
@@ -46,6 +57,9 @@ function App() {
           <Route path="/hamza" element={<Hamza />} />
           <Route path="/phillipe" element={<Koko />} />
           <Route path="/jahad" element={<Jahad />} />
+
+          <Route path='/meeting' element={<Meeting />} />
+          <Route path="/pricing" element={<PricingComparison />} />
 
           {/* Catch-all route for 404 Not Found */}
           <Route path="*" element={<NotFound />} />

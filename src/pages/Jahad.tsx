@@ -1,19 +1,21 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
+import ProjectCard from "../components/ProjectCard";
+
 const Jahad = () => {
   const [active, setActive] = useState("about");
 
   return (
     <>
-      <div className="w-full h-[230px] bg-profile bg-no-repeat bg-cover"></div>
+      <div className="w-full h-[150px] md:h-[230px] bg-profile bg-no-repeat bg-cover"></div>
 
-      <section className="md:grid md:grid-cols-3 gap-10 md:px-14 pb-20">
+      <section className="w-full grid grid-cols-1 md:grid-cols-3 gap-10 md:px-14 pb-20">
         <div className="max-w-full md:max-w-[650px] flex col-span-1 -mt-14 md:mt-0 px-6 md:px-0">
-          <div className="bg-[#020061] md:bg-[#070F64]/70 rounded-2xl max-w-[380px] max-h-[770px] flex flex-col items-center justify-center pb-10 mb-6"> 
+          <div className="bg-[#020061] md:bg-[#070F64]/70 rounded-2xl md:max-w-[380px] max-h-[770px] flex flex-col items-center justify-center pb-10 mb-6 "> 
             <img src="/ProfileMask.svg" alt="" className=""/>
-            <div className="md:-mt-[44px] lg:-mt-[70px] bg-blue rounded-full">
-              <img src="/jahad.svg" alt="" className="md:w-20 md:h-20 lg:w-36 lg:h-36 rounded-full"/>
+            <div className="-mt-[70px] md:-mt-[44px] lg:-mt-[70px] bg-blue rounded-full">
+              <img src="/jahad.svg" alt="" className="w-[115px] h-[115px] md:w-20 md:h-20 lg:w-36 lg:h-36 rounded-full"/>
             </div>
             <div className="flex flex-col items-center gap-1 border-b-[2px] border-[#020061] py-6">
               <h1 className="text-[20px] leading-[20px] font-bold">Muhammad Jahad Tariq</h1>
@@ -46,14 +48,14 @@ const Jahad = () => {
             </div>
           </div>
         </div>
-        <div className="w-full col-span-2 flex flex-col gap-20 px-4 mt-10 md:px-0 md:mt-0">
-          <div className="flex items-center justify-start gap-10 text-[20px] font-normal">
+        <div className="w-full col-span-2 flex flex-col gap-20 px-4 md:px-0">
+          <div className="flex items-center justify-start gap-10 text-[20px] font-normal px-6 md:px-0">
             <h1 className={`${active === "about" ? "font-bold" : "font-normal"} cursor-pointer`} onClick={() => setActive("about")}>About</h1>
             <h1 className={`${active === "projects" ? "font-bold" : "font-normal"} cursor-pointer`} onClick={() => setActive("projects")}>Projects</h1>
             <h1 className={`${active === "services" ? "font-bold" : "font-normal"} cursor-pointer`} onClick={() => setActive("services")}>Services</h1>
           </div>
           {active === "about" && (
-            <div className="flex flex-col gap-6 font-normal text-[20px] leading-[20px] max-w-[700px]">
+            <div className="flex flex-col gap-6 font-normal text-[20px] leading-[20px] max-w-[700px] -mt-12 px-6 md:px-0">
                 <p>
                 Introducing Our Versatile Software Engineer: Unlocking Digital Transformation
                 </p>
@@ -67,16 +69,39 @@ const Jahad = () => {
             </div>
           )}
           {active === "projects" && (
-            <section id="yameen" className='flex flex-wrap items-center justify-center gap-8 lg:gap-4 -mt-4 md:mt-6'>
-            <iframe src="https://www.behance.net/embed/project/183104851?ilo0=1" height="280" width="360" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-            <iframe src="https://www.behance.net/embed/project/164799589?ilo0=1" height="280" width="360" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-            <iframe src="https://www.behance.net/embed/project/164165101?ilo0=1" height="280" width="360" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-            <iframe src="https://www.behance.net/embed/project/161520213?ilo0=1" height="280" width="360" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-            <iframe src="https://www.behance.net/embed/project/158977405?ilo0=1" height="280" width="360" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+            <section id="yameen" className='w-full flex flex-wrap items-center justify-start gap-8 lg:gap-4 -mt-12 px-6 md:px-0'>
+            <ProjectCard
+              type="web dev"
+              image="image link"
+              heading="some project"
+              description="some description about the project"
+              tags={["web","development"]}
+            />
+            <ProjectCard
+              type="web dev"
+              image="image link"
+              heading="some project"
+              description="some description about the project"
+              tags={["web","development"]}
+            />
+            <ProjectCard
+              type="web dev"
+              image="image link"
+              heading="some project"
+              description="some description about the project"
+              tags={["web","development"]}
+            />
+            <ProjectCard
+              type="web dev"
+              image="image link"
+              heading="some project"
+              description="some description about the project"
+              tags={["web","development"]}
+            />
           </section>
           )}
           {active === "services" && (
-            <div className="grid md:grid-cols-2 gap-4 -mt-8 md:mt-0 px-6 md:px-0">
+            <div className="grid md:grid-cols-2 gap-4 px-6 md:px-0 -mt-12">
                 <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Landing Page Development</Link>
                 <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Wordpress Development</Link>
                 <Link to={"/contact"} className="flex items-center justify-center text-[24px] px-4 py-10 leading-[27px] font-semibold bg-gradient-to-r from-[#0009D6] to-[#0C0056] rounded-2xl">Custom Web Application</Link>
